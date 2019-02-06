@@ -6,6 +6,6 @@ public class NewTest {
   @Test
   public void opentext(){
 	  
-	  System.out.println("Hello TestNG");
+	  System.out.println("TESTING Automation");
   }
 }
