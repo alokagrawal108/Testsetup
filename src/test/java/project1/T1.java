@@ -9,10 +9,11 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import org.apache.poi.ss.usermodel.Cell;
-
+import org.testng.annotations.Test;
 public class T1 {
 
-	public static void main(String[] args) throws IOException {
+	@Test
+	public static void Datadrive() throws IOException {
 		
 		FileInputStream FI = new FileInputStream("//home//decimal//Automation//TestData//Test.xlsx");
 		
