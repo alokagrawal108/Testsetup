@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite 1" duration-ms="651" started-at="2019-02-06T12:42:30Z" finished-at="2019-02-06T12:42:30Z">
+  <suite name="Suite 1" duration-ms="721" started-at="2019-02-07T06:53:02Z" finished-at="2019-02-07T06:53:03Z">
     <groups>
     </groups>
-    <test name="Trial" duration-ms="651" started-at="2019-02-06T12:42:30Z" finished-at="2019-02-06T12:42:30Z">
+    <test name="Trial" duration-ms="721" started-at="2019-02-07T06:53:02Z" finished-at="2019-02-07T06:53:03Z">
       <class name="project1.T1">
-        <test-method status="PASS" signature="Datadrive()[pri:0, instance:project1.T1@1e397ed7]" name="Datadrive" duration-ms="612" started-at="2019-02-06T12:42:30Z" finished-at="2019-02-06T12:42:30Z">
+        <test-method status="PASS" signature="Datadrive()[pri:0, instance:project1.T1@490ab905]" name="Datadrive" duration-ms="670" started-at="2019-02-07T06:53:02Z" finished-at="2019-02-07T06:53:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Datadrive -->
       </class> <!-- project1.T1 -->
+      <class name="project1.WebLaunch">
+        <test-method status="PASS" signature="Launch()[pri:0, instance:project1.WebLaunch@56ac3a89]" name="Launch" duration-ms="1" started-at="2019-02-07T06:53:03Z" finished-at="2019-02-07T06:53:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+      </class> <!-- project1.WebLaunch -->
       <class name="project1.NewTest">
-        <test-method status="PASS" signature="opentext()[pri:0, instance:project1.NewTest@3f49dace]" name="opentext" duration-ms="11" started-at="2019-02-06T12:42:30Z" finished-at="2019-02-06T12:42:30Z">
+        <test-method status="PASS" signature="opentext()[pri:0, instance:project1.NewTest@1e397ed7]" name="opentext" duration-ms="10" started-at="2019-02-07T06:53:02Z" finished-at="2019-02-07T06:53:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- opentext -->
