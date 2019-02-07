@@ -4,6 +4,8 @@ import org.testng.annotations.Test;
 
 public class WebLaunch {
   @Test
-  public void f() {
+  public void Launch() {
+	  
+	  System.out.println("Check your Results");
   }
 }
