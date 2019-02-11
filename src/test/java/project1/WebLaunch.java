@@ -6,6 +6,6 @@ public class WebLaunch {
   @Test
   public void Launch() {
 	  
-	  System.out.println("Check your Results");
+	  System.out.println("        Trial Run-Automation setup     ");
   }
 }
