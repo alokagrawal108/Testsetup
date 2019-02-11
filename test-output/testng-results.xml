@@ -1,29 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite 1" duration-ms="721" started-at="2019-02-07T06:53:02Z" finished-at="2019-02-07T06:53:03Z">
+  <suite name="Default suite" duration-ms="47" started-at="2019-02-11T08:49:25Z" finished-at="2019-02-11T08:49:25Z">
     <groups>
     </groups>
-    <test name="Trial" duration-ms="721" started-at="2019-02-07T06:53:02Z" finished-at="2019-02-07T06:53:03Z">
-      <class name="project1.T1">
-        <test-method status="PASS" signature="Datadrive()[pri:0, instance:project1.T1@490ab905]" name="Datadrive" duration-ms="670" started-at="2019-02-07T06:53:02Z" finished-at="2019-02-07T06:53:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Datadrive -->
-      </class> <!-- project1.T1 -->
-      <class name="project1.WebLaunch">
-        <test-method status="PASS" signature="Launch()[pri:0, instance:project1.WebLaunch@56ac3a89]" name="Launch" duration-ms="1" started-at="2019-02-07T06:53:03Z" finished-at="2019-02-07T06:53:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Launch -->
-      </class> <!-- project1.WebLaunch -->
+    <test name="Default test" duration-ms="47" started-at="2019-02-11T08:49:25Z" finished-at="2019-02-11T08:49:25Z">
       <class name="project1.NewTest">
-        <test-method status="PASS" signature="opentext()[pri:0, instance:project1.NewTest@1e397ed7]" name="opentext" duration-ms="10" started-at="2019-02-07T06:53:02Z" finished-at="2019-02-07T06:53:02Z">
+        <test-method status="PASS" signature="opentext()[pri:0, instance:project1.NewTest@5700d6b1]" name="opentext" duration-ms="11" started-at="2019-02-11T08:49:25Z" finished-at="2019-02-11T08:49:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- opentext -->
       </class> <!-- project1.NewTest -->
-    </test> <!-- Trial -->
-  </suite> <!-- Suite 1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
